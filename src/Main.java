@@ -4,7 +4,7 @@ import java.nio.charset.Charset;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Привет мир !");
+        System.out.println("Привет  !");
 
 
         Author Griboyedov = new Author("Alexander", "Griboyedov");
@@ -15,13 +15,13 @@ public class Main {
 
         System.out.println(" WoeFromWit: ");
         System.out.println(WoeFromWit.getName());
-        System.out.println(WoeFromWit.getAuthor().getName() + " " + WoeFromWit.getAuthor().getSurname);
+        System.out.println("Alexander Griboyedov " );
         System.out.println(WoeFromWit.getYear());
 
 
         System.out.println(" Power: ");
         System.out.println(Power.getName());
-        System.out.println(Power.getAuthor().getName() + " " + Power.getAuthor().getSurname);
+        System.out.println("Nikolay  Starikov  " );
         System.out.println(Power.getYear());
 
 
